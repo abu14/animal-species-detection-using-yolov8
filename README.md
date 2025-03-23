@@ -1,19 +1,14 @@
-## **Animal Species Detection**
-The aim of this project is to develop an efficient computer vision model capable of real-time wildlife detection.
+## 📸 **Animal Species Detection**
+This project utilizes YOLOv8, a state-of-the-art object detection model, to identify and classify animal or plant species within images. The application features a user-friendly web interface, built with Streamlit, easily upload images and receive real-time species detection results. OpenCV is integrated for image processing. 
 
-<!-- <p align="center">
-  <img src="./demo/demo.gif" alt="Demo GIF">
-</p> -->
-
-
-## Datasets
+## 📚 Datasets
 The dataset used in this project consists of labeled images of 10 different animal classes.
-- [Dataset 1](https://www.kaggle.com/datasets/biancaferreira/african-wildlife)
-- [Dataset 2](https://www.kaggle.com/datasets/brsdincer/danger-of-extinction-animal-image-set)
-- [Dataset 3](https://www.kaggle.com/datasets/antoreepjana/animals-detection-images-dataset )
+- [Wildlife Dataset](https://www.kaggle.com/datasets/biancaferreira/african-wildlife)
+- [Danger of Extinctin Image Dataset](https://www.kaggle.com/datasets/brsdincer/danger-of-extinction-animal-image-set)
+- [Animal Detection Dataset](https://www.kaggle.com/datasets/antoreepjana/animals-detection-images-dataset )
 
 
-## Getting Started
+## 🚀 Getting Started
 Follow theses steps to set up the environment and run the application.
 
 1. Fork the repository
@@ -23,32 +18,25 @@ Follow theses steps to set up the environment and run the application.
     cd Animal-Species-Detection
     ```
 
-3. Create a python virtual environment.
+3. Create a python virtual environment and activate the environemnt.
     ``` bash
     python3 -m venv venv
     ```
 
-4. Activate the virtual environment.
-
-    - On Linux and macOS
-    ``` bash
-    source venv/bin/activate
-    ```
-    - On Windows
-    ``` bash
+    ```bash
     venv\Scripts\activate
     ```
 
-5. Install Dependencies
+4. Install Dependencies
     ```bash
     pip install -r requirements.txt
     ```
-6. Run the application.
+5. Run the application.
     ```python
     streamlit run './scripts/app.py'
     ```
 
-## Evaluation
+## ⚖️ Evaluation
 The performance of the model is evaluated by metrics such as Precision, Recal, and Mean Average Precision (mAP).
 
     * Model - YOLO v8
