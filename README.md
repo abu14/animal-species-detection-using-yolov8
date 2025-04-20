@@ -15,7 +15,7 @@ Follow theses steps to set up the environment and run the application.
 2. Clone the forked repository.
     ```bash
     git clone https://github.com/abu14/animal-species-detection-using-yolov8.git
-    cd Animal-Species-Detection
+    cd animal-species-detection-using-yolov8
     ```
 
 3. Create a python virtual environment and activate the environemnt.
