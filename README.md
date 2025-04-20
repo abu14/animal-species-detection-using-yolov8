@@ -14,7 +14,7 @@ Follow theses steps to set up the environment and run the application.
 1. Fork the repository
 2. Clone the forked repository.
     ```bash
-    git clone https://github.com/<YOUR-USERNAME>/Animal-Species-Detection
+    git clone https://github.com/abu14/Animal-Species-Detection
     cd Animal-Species-Detection
     ```
 
